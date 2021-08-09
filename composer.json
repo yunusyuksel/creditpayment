@@ -1,0 +1,19 @@
+
+{
+    "name": "evry/payonaccount",
+    "description": "Real Username support for Magento 2",
+    "type": "magento2-module",
+    "version": "2.0.0-beta",
+    "license": [
+      "OSL-3.0",
+      "AFL-3.0"
+    ],
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "Evry\\Payonaccount\\": ""
+      }
+    }
+  }
